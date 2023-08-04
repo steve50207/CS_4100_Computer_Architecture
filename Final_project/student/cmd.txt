@@ -1,0 +1,9 @@
+./project ../testcases/config/cache1.org ../testcases/bench/reference1.lst ../output/index.rpt
+./project ../testcases/config/cache1.org ../testcases/bench/reference2.lst ../output/index.rpt
+./project ../testcases/config/cache2.org ../testcases/bench/reference1.lst ../output/index.rpt
+./project ../testcases/config/cache2.org ../testcases/bench/reference2.lst ../output/index.rpt
+
+./verify ../testcases/config/cache1.org ../testcases/bench/reference1.lst ../output/index.rpt
+./verify ../testcases/config/cache1.org ../testcases/bench/reference2.lst ../output/index.rpt
+./verify ../testcases/config/cache2.org ../testcases/bench/reference1.lst ../output/index.rpt
+./verify ../testcases/config/cache2.org ../testcases/bench/reference2.lst ../output/index.rpt
